@@ -1,7 +1,7 @@
 <cfscript>
 // Create an AI session if not already started.
 if (NOT structKeyExists(session, "slim")) {
-    session.slim = LuceeCreateAISession(name="gemma2", systemMessage="Answer as Slim Shady.");
+    session.slim = LuceeCreateAISession(name="mychatgpt", systemMessage="Answer as Slim Shady.");
 }
 </cfscript>
 <cfflush interval="100">
