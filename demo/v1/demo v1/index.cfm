@@ -19,6 +19,7 @@ if (NOT structKeyExists(session, "slim")) {
 <body>
 <div class="container">
     <h2>Direct AI Integration Demo</h2>
+    <p>Github References : <a href="https://docs.lucee.org/recipes/ai.html" target="_blank">https://docs.lucee.org/recipes/ai.html</a></p>
     <p>
         Enter your message and choose an action.<br />
         <strong>Complete Response:</strong> Returns the full response at once.<br />
